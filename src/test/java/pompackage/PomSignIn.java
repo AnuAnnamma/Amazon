@@ -24,22 +24,7 @@ public class PomSignIn extends BaseAmazonClass{
 			PageFactory.initElements(driver, this);
 		}
 		
-		/*public void typeemail(String e_mail) {
-			email.sendKeys(e_mail);
-		}
 		
-		public void clickbtn_continue() {
-			Continue_button.click();
-		}
-		public void typepassword(String pass) {
-			password.sendKeys(pass);
-		}
-		public void clickbtn_signin() {
-			Sign_In_button.click();
-		}
-		public String verify() {
-			return driver.getTitle();
-		}*/
 		public void pomsignin() {
 			email.sendKeys("anu.joseph@gmail.com");
 			Continue_button.click();
